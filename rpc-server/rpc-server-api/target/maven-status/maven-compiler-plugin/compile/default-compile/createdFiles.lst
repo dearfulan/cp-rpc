@@ -1,0 +1,3 @@
+com\chenpp\request\RpcRequest.class
+com\chenpp\domain\User.class
+com\chenpp\api\IUserService.class

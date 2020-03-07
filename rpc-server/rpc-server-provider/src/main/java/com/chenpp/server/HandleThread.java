@@ -7,6 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.lang.reflect.Method;
 import java.net.Socket;
+import java.util.Map;
 
 /**
  * 2020/3/7
@@ -17,11 +18,11 @@ public class HandleThread implements Runnable {
 
     private Socket socket;
 
-    private Object serviceInstance;
+    private Map<String,Object> serviceMap;
 
-    public HandleThread(Object serviceInstance, Socket socket) {
+    public HandleThread(Map<String,Object> serviceMap, Socket socket) {
         this.socket  = socket;
-        this.serviceInstance = serviceInstance;
+        this.serviceMap = serviceMap;
     }
 
     public void run() {
@@ -56,6 +57,7 @@ public class HandleThread implements Runnable {
             Class<?> clazz = Class.forName(className);
             //这里无法实例化，因为传入的是接口类型，接口无法实力哈
             Object[] parameters = rpcRequest.getArgs();
+            Object serviceInstance = serviceMap.get(clazz.getName());
             if (parameters == null) {
                 Method method = clazz.getMethod(rpcRequest.getMethodName());
                 result = method.invoke(serviceInstance);

@@ -1,7 +1,7 @@
 package com.chenpp.starter;
 
-import com.chenpp.impl.UserServiceImpl;
-import com.chenpp.server.RpcServer;
+import com.chenpp.config.SpringConfig;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
  * 2020/3/7
@@ -10,8 +10,10 @@ import com.chenpp.server.RpcServer;
  */
 public class StartServer {
     public static void main(String[] args) {
-        UserServiceImpl userService = new UserServiceImpl();
-        RpcServer rpcServer = new RpcServer();
-        rpcServer.register(userService,8080);
+//        UserServiceImpl userService = new UserServiceImpl();
+//        RpcServer rpcServer = new RpcServer();
+//        rpcServer.register(userService,8080);
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);
+        ((AnnotationConfigApplicationContext) applicationContext).start();
     }
 }

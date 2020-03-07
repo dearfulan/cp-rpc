@@ -27,6 +27,7 @@ public class RpcInvocationHandler implements InvocationHandler {
      * 增强的InvocationHandler,接口调用方法的时候实际是调用socket进行传输
      */
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        //将远程调用需要的接口类、方法名、参数信息封装成RPCRequest
         RpcRequest rpcRequest = new RpcRequest();
         rpcRequest.setArgs(args);
         rpcRequest.setClassName(method.getDeclaringClass().getName());

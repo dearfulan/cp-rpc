@@ -1,5 +1,6 @@
 package com.chenpp.impl;
 
+import com.chenpp.annotation.RegisterService;
 import com.chenpp.api.IUserService;
 import com.chenpp.domain.User;
 
@@ -8,6 +9,7 @@ import com.chenpp.domain.User;
  * created by chenpp
  * 在Pom引入rpc-server-api的依赖，实现接口
  */
+@RegisterService(interfaceClass = IUserService.class)
 public class UserServiceImpl implements IUserService {
 
     public void saveUser(User user) {

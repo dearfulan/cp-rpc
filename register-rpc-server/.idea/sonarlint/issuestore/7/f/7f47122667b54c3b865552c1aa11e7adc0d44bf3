@@ -1,0 +1,9 @@
+
+U
+squid:S106_"9Replace this use of System.out or System.err by a logger.(»·ÅV8¨ñËèŒ.
+Fsquid:S1148u"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‰ÅÙèŒ.
+Esquid:S2189h""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8‰ÅÙèŒ.
+Fsquid:S1148o"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‰ÅÙèŒ.
+«%squid:RedundantThrowsDeclarationCheck{"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(úî’8›³ºèŒ.
+_squid:UnusedPrivateMethodc".Remove this unused private "socketRpc" method.(Â¤Í°ûÿÿÿÿ8ÀÄ‡.
+nsquid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(ÌÖ²úÿÿÿÿ8ÀÄ‡.

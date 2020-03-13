@@ -1,0 +1,6 @@
+
+Fsquid:S1148."#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8“Ÿ¸¡Œ.
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(«ïìÛÿÿÿÿÿ8“Ÿ¸¡Œ.
+Dsquid:S1075#"&Remove this hard-coded path-delimiter.(ˆºâÍ8“Ÿ¸¡Œ.
+|squid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(„Á£âüÿÿÿÿ8Õ–Ì Œ.

@@ -1,0 +1,12 @@
+
+Lsquid:S1191	"5Use classes from the Java API instead of Sun classes.(ÙÐ¸ð
+Psquid:UselessImportCheck",Remove this unused import 'java.net.Socket'.(­‡àú
+tsquid:UselessImportCheck	"PRemove this unused import 'com.sun.corba.se.internal.CosNaming.BootstrapServer'.(ÙÐ¸ð
+Zsquid:UselessImportCheck"6Remove this unused import 'java.io.ObjectInputStream'.(Éæéœ
+|squid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ
+rsquid:UselessImportCheck"IRemove this unused import 'org.springframework.context.annotation.Scope'.(þè®€ÿÿÿÿÿ
+[squid:UselessImportCheck"2Remove this unused import 'java.net.ServerSocket'.(ÐúÙžÿÿÿÿÿ
+`squid:UselessImportCheck"7Remove this unused import 'java.io.ObjectOutputStream'.(é»Óºûÿÿÿÿ
+nsquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
+`squid:UselessImportCheck"7Remove this unused import 'com.chenpp.config.ZKConfig'.(Ò¸‚Œúÿÿÿÿ
+hsquid:UselessImportCheck"?Remove this unused import 'io.netty.bootstrap.ServerBootstrap'.(Ì†¯×úÿÿÿÿ

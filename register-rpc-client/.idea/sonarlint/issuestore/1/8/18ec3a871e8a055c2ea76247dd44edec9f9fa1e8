@@ -1,0 +1,9 @@
+
+|squid:S1171!"YMove the contents of this initializer to a standard constructor or to field initializers.(„Á£âüÿÿÿÿ8´ô¾ËŒ.
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(¬Ó´ùÿÿÿÿ8´ô¾ËŒ.
+esquid:S00112N"FDefine and throw a dedicated exception instead of using a generic one.(ªÓÄ½8´ô¾ËŒ.
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(Ê€¤ğûÿÿÿÿ8´ô¾ËŒ.
+jsquid:S001126"FDefine and throw a dedicated exception instead of using a generic one.(à¥éşÿÿÿÿ8´ô¾ËŒ.
+Isquid:S1075-"&Remove this hard-coded path-delimiter.(’’Ãùøÿÿÿÿ8´ô¾ËŒ.

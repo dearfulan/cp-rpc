@@ -1,0 +1,5 @@
+com\chenpp\request\RpcRequest.class
+com\chenpp\util\RpcDecoder.class
+com\chenpp\domain\User.class
+com\chenpp\api\IUserService.class
+com\chenpp\util\RpcEncoder.class

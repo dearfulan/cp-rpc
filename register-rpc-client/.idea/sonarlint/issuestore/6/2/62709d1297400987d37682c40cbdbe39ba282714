@@ -1,0 +1,17 @@
+
+gsquid:UselessImportCheck"7Remove this unused import 'com.chenpp.config.ZKConfig'.(Ò¸‚Œúÿÿÿÿ8ÑãËŒ.
+Fsquid:S1148i"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8û‹ĞèŒ.
+ƒsquid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8—‰˜ÌŒ.
+gsquid:UselessImportCheck"7Remove this unused import 'com.chenpp.util.RpcDecoder'.(İå…µøÿÿÿÿ8ÆÇ±èŒ.
+squid:S1488z"^Immediately return this expression instead of assigning it to the temporary variable "result".(Å€±õüÿÿÿÿ8ÇøæèŒ.
+usquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8÷¢™ÌŒ.
+ysquid:UselessImportCheck"IRemove this unused import 'org.springframework.context.annotation.Scope'.(şè®€ÿÿÿÿÿ8ä¢†ÌŒ.
+osquid:UselessImportCheck"?Remove this unused import 'io.netty.bootstrap.ServerBootstrap'.(Ì†¯×úÿÿÿÿ8‡¯ÖÊŒ.
+Ssquid:S1191	"5Use classes from the Java API instead of Sun classes.(ÙĞ¸ğ8‡¯ÖÊŒ.
+bsquid:S2095v"DUse try-with-resources or close this "Socket" in a "finally" clause.(ª¬¯ö8çÅãèŒ.
+asquid:S2259k"CA "NullPointerException" could be thrown; "group" is nullable here.(Î÷—í8û‹ĞèŒ.
+{squid:UselessImportCheck	"PRemove this unused import 'com.sun.corba.se.internal.CosNaming.BootstrapServer'.(ÙĞ¸ğ8‡¯ÖÊŒ.
+bsquid:UselessImportCheck"2Remove this unused import 'java.net.ServerSocket'.(ĞúÙÿÿÿÿÿ8ø„ĞÊŒ.
+bsquid:UselessImportCheck"7Remove this unused import 'com.chenpp.util.RpcEncoder'.(£ÎõÂ8õ“²èŒ.
+]squid:UnusedPrivateMethodq"1Remove this unused private "handleSocket" method.(Ÿ°–Ö8Ÿ„­.
+nsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(å†ûåıÿÿÿÿ8Ÿ„­.
